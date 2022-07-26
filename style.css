@@ -9,7 +9,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
-	background-color: hsl(320, 63%, 83%);
+	background-color: hsl(204, 43%, 93%);
 	font-family: 'Karla', sans-serif;
 }
 
@@ -67,11 +67,24 @@ body {
 .card-right {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
-	padding: 3rem;
+    justify-content: space-between;
+	padding: 2.6rem;
+    padding-right: 6.2rem;
+    
 	width: 50%;
 	height: 100%;
+    font-size: 14px;
 	background-color: hsla(179, 48%, 65%, 0.39);
+    
+}
+.card-right_headline {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.card-right_description {
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .card-left_headline {
@@ -91,11 +104,17 @@ body {
 	color: rgba(255, 255, 255, 0.5);
 }
 
+
 .card-lef_btn {
     height: 3rem;
+    margin-top: 1rem;
     background-color: hsl(71, 73%, 54%);
     border: none;
     border-radius: 0.3rem;
+    box-shadow: 0px 7px 24px -11px rgba(66, 68, 90, 1);
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
 }
 
 
@@ -104,4 +123,31 @@ footer {
 	left: 50%;
 	transform: translateX(-50%);
 	bottom: 0;
+}
+
+
+@media (max-width: 375px) {
+    .card {
+        width: 20rem;
+        height: 50rem;
+    }
+    .card-bottom {
+        width: 100%;
+        height: 60%;
+        flex-direction: column;
+    }
+
+    .card-top {
+        padding: 1.7rem;
+        height: 40%;
+    }
+    .card-left {
+        width: 100%;
+        padding: 1.7rem;
+    }
+    .card-right {
+        width: 100%;
+        padding: 1.7rem;
+        padding-right: 7rem;
+    }
 }
