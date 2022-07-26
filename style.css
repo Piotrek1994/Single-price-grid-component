@@ -10,89 +10,97 @@ body {
 	align-items: center;
 	height: 100vh;
 	background-color: hsl(320, 63%, 83%);
-    font-family: 'Karla', sans-serif;
+	font-family: 'Karla', sans-serif;
 }
 
 .card {
-    width: 40rem;
-    height: 30rem;
-    background-color: hsl(179, 62%, 43%);
-    border-radius: 0.7rem;
-    overflow: hidden;
+	width: 40rem;
+	height: 30rem;
+	background-color: hsl(179, 62%, 43%);
+	border-radius: 0.7rem;
+	overflow: hidden;
 }
 
 .card-top {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    height: 47%;
-    background-color: white;
-    padding: 3rem;
-    font-weight: 700;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	height: 47%;
+	background-color: white;
+	padding: 3rem;
+	font-weight: 700;
 }
 
 .card-top_head {
-    font-size: 1.5rem;
-    color: hsl(179, 62%, 43%);
+	font-size: 1.5rem;
+	color: hsl(179, 62%, 43%);
 }
 
 .card-top_headline {
-    font-size: 1.1rem;
-    color: hsl(71, 73%, 54%);
+	font-size: 1.1rem;
+	color: hsl(71, 73%, 54%);
 }
 
 .card-top_description {
-    color: hsl(218, 22%, 67%);
-    font-weight: 400;
-    line-height: 1.5rem;
+	color: hsl(218, 22%, 67%);
+	font-weight: 400;
+	line-height: 1.5rem;
 }
 
-
-
-
 .card-bottom {
-    height: 53%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
+	height: 53%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
 }
 
 .card-left {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 50%;
-    height: 100%;
-    padding: 3rem;
-    background-color: hsl(179, 62%, 43%);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 50%;
+	height: 100%;
+	padding: 2.6rem;
+	background-color: hsl(179, 62%, 43%);
 }
 .card-right {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 3rem;
-    width: 50%;
-    height: 100%;
-    background-color: hsla(179, 48%, 65%, 0.39);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 3rem;
+	width: 50%;
+	height: 100%;
+	background-color: hsla(179, 48%, 65%, 0.39);
 }
 
+.card-left_headline {
+	font-weight: 700;
+}
 
+.card-left_price {
+	display: flex;
+	align-items: center;
+	font-size: 2rem;
+	font-weight: 700;
+}
+.card-left_month {
+    margin-left: 0.8rem;
+	font-size: 1rem;
+	font-weight: 400;
+	color: rgba(255, 255, 255, 0.5);
+}
 
-
-
-
-
-
-
-
-
-
-
+.card-lef_btn {
+    height: 3rem;
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    border-radius: 0.3rem;
+}
 
 
 footer {
-    position: absolute;
+	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
 	bottom: 0;
