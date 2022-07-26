@@ -9,6 +9,62 @@ body {
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
-	background-color: hsl(204, 43%, 93%);
+	background-color: hsl(320, 63%, 83%);
     font-family: 'Karla', sans-serif;
+}
+
+.card {
+    width: 40rem;
+    height: 30rem;
+    background-color: hsl(179, 62%, 43%);
+    border-radius: 0.7rem;
+}
+
+.card-top {
+    height: 40%;
+    background-color: white;
+    padding: 2rem;
+}
+
+.card-bottom {
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    height: 100%;
+    padding: 3rem;
+    background-color: hsl(179, 62%, 43%);
+}
+.card-right {
+    width: 50%;
+    height: 100%;
+    background-color: hsla(179, 48%, 65%, 0.39);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 0;
 }
