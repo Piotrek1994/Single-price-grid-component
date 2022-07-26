@@ -18,19 +18,44 @@ body {
     height: 30rem;
     background-color: hsl(179, 62%, 43%);
     border-radius: 0.7rem;
+    overflow: hidden;
 }
 
 .card-top {
-    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 47%;
     background-color: white;
-    padding: 2rem;
+    padding: 3rem;
+    font-weight: 700;
 }
 
+.card-top_head {
+    font-size: 1.5rem;
+    color: hsl(179, 62%, 43%);
+}
+
+.card-top_headline {
+    font-size: 1.1rem;
+    color: hsl(71, 73%, 54%);
+}
+
+.card-top_description {
+    color: hsl(218, 22%, 67%);
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+
+
+
 .card-bottom {
-    height: 60%;
+    height: 53%;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 .card-left {
@@ -43,6 +68,10 @@ body {
     background-color: hsl(179, 62%, 43%);
 }
 .card-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3rem;
     width: 50%;
     height: 100%;
     background-color: hsla(179, 48%, 65%, 0.39);
